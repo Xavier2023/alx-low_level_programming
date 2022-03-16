@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Print the firs 98 fibonacci num, starting with 
+ * main - Print the firs 98 fibonacci num, starting with
  * 1 and 2, seperate by a comma and space
  *
  * Return: Always 0
  */
-
 int main(void)
-
 {
 	int count;
 	unsigned long fb1 = 0, fb2 = 1, sum;
@@ -22,7 +20,6 @@ int main(void)
 
 		fb1 = fb2;
 		fb2 = sum;
-
 	}
 
 	fb1_half1 = fb1 / 10000000000;
@@ -48,9 +45,7 @@ int main(void)
 		fb1_half2 = fb2_half2;
 		fb2_half1 = half1;
 		fb2_half2 = half2;
-
 	}
 	printf("\n");
 	return (0);
-
 }
