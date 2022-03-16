@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - finds and prints even 
+ * main - finds and prints even
  *
  * Return: 0
  */
